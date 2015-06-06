@@ -1,18 +1,49 @@
-subl moving_around.txt 
+# open moving_around.txt in sublime
+subl moving_around.txt
+
+# list files in this directory in reverse chronological order of last modification
 ls -t
+
+# list files in this directory
 ls
+
+# create a file called moving_around.txt and write the history to it
 history > moving_around.txt
+
+# quit less
 quit
+
+# view history in the less pager
 history | less
+
+# view history in fish
 history
+
+# change directory to home
 cd $HOME
+
+# change directory up one level in the file tree
 cd ..
+
+# list files in the root
 ls ~
+
+# change directory to "Public"
 cd Public/
+
+# display which directory you are in
 pwd
+
+# change directory to root
 cd ~
+
+# mistake
 $HOME
+
+
 cd /
+
+# mistake
 cd/
 ls -l
 LS
@@ -52,10 +83,10 @@ xcode-select --install
 whoami
 make
 gcc
-ls -l moving_around.txt 
+ls -l moving_around.txt
 ls -l
 history | less
-subl moving_around.txt 
+subl moving_around.txt
 history > moving_around.txt
 ls -t
 ls
