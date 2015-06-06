@@ -16,6 +16,7 @@ history > moving_around.txt
 # quit less
 quit
 
+Nice history bro.
 # view history in the less pager
 history | less
 
