@@ -1,0 +1,109 @@
+subl moving_around.txt 
+ls -t
+ls
+history > moving_around.txt
+quit
+history | less
+history
+cd $HOME
+cd ..
+ls ~
+cd Public/
+pwd
+cd ~
+$HOME
+cd /
+cd/
+ls -l
+LS
+man ls
+ls -lrt
+ls -rt
+ls -r
+ls -lt
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.email 'nollette.dan@gmail.com'
+git config --global user.name 'Dan Nollette'
+git config --global user.name 'YOUR FULL NAME'
+git --version
+brew install git
+echo $PATH
+echo $path
+subl /etc/paths
+echo $EDITOR
+subl ~/.config/fish/config.fish
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+subl
+which subl
+brew info fish
+fish_update_completions
+curl -fsSL http://git.io/beJs | ruby
+which fish
+echo $SHELL
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+brew doctor
+ls -G
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
+uname
+-ls
+xcode-select --install
+whoami
+make
+gcc
+ls -l moving_around.txt 
+ls -l
+history | less
+subl moving_around.txt 
+history > moving_around.txt
+ls -t
+ls
+quit
+history
+cd $HOME
+cd ..
+ls ~
+cd Public/
+pwd
+cd ~
+$HOME
+cd /
+cd/
+LS
+man ls
+ls -lrt
+ls -rt
+ls -r
+ls -lt
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.email 'nollette.dan@gmail.com'
+git config --global user.name 'Dan Nollette'
+git config --global user.name 'YOUR FULL NAME'
+git --version
+brew install git
+echo $PATH
+echo $path
+subl /etc/paths
+echo $EDITOR
+subl ~/.config/fish/config.fish
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+subl
+which subl
+brew info fish
+fish_update_completions
+curl -fsSL http://git.io/beJs | ruby
+which fish
+echo $SHELL
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+brew doctor
+ls -G
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
+uname
+-ls
+xcode-select --install
+whoami
+make
+gcc
