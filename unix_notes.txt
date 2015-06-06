@@ -43,31 +43,66 @@ cd ~
 # mistake
 $HOME
 
-
+# I am currently suffering from sleep deprivation
 cd /
 
 # mistake
 cd/
+
+# Its geting weird and I suspect my grammar is creative
 ls -l
+
+#This is what I get for working a night job
 LS
+
+# and then traffic sucked on the way in
 man ls
+
+# who decides to do constuction on I-5 at 9 in the morning
 ls -lrt
+
+# I mean comeon.
 ls -rt
+
+# lists with flags that escape me at the moment. Whatever, I can just look them up with man later
 ls -r
 ls -lt
+
+# some commands I don't understand that I was told to past into the teminal
 curl -fsSL http://git.io/QxUaOQ | sh
 curl -fsSL http://git.io/7UHtNA | sh
+
+# this sets me e-mail for git's purposes
 git config --global user.email 'nollette.dan@gmail.com'
+
+# this sets my name for git's purposes
 git config --global user.name 'Dan Nollette'
+
+# that didn't work
 git config --global user.name 'YOUR FULL NAME'
+
+#lists version of git in use
 git --version
+
+# has hoebrew install giy
 brew install git
+
+# not sure
 echo $PATH
 echo $path
+
+# no idea on this bit
 subl /etc/paths
+
+# What the hell IS echo?
 echo $EDITOR
+
+# setting up fich with subl
 subl ~/.config/fish/config.fish
-ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+
+# some more crap to cut and paste
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublgu
+
 subl
 which subl
 brew info fish
@@ -141,3 +176,22 @@ xcode-select --install
 whoami
 make
 gcc
+git branch git-notes
+git commit -m "Add comment about displaying hidden files."
+git add unix_notes.txt
+ls
+git log
+git lopg
+subl unix_notes.txt
+git commit -m "Add secondary version of unix notes."
+git status
+cd uge_workshop/
+mv ./uge_workshop/moving_around.txt ./uge_workshop/unix_notes.txt
+cd ..
+mv moving_around.txt uge_workshop/
+man git-commit
+man git commit
+git commit -m "Add initial version of unix notes."
+cd .git
+ls -a
+git init
